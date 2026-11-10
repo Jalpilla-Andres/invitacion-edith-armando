@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Edith &amp; Armando · Invitación</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="bl" aria-hidden="true"></div>
+<div id="sk" aria-hidden="true"></div>
+<canvas id="cv" aria-hidden="true"></canvas>
+<main>
+  <section id="s1" class="live">
+    <p class="eyebrow rv" style="--d:.3s">Una invitación especial</p>
+    <p class="lead rv" style="--d:.8s;margin-top:22px">Celebramos nuestros cumpleaños…</p>
+    <div class="nwrap"><h1 class="name rv" id="n1" style="--d:1.6s" data-name></h1></div>
+    <div class="orn rv" style="--d:2.4s"><i></i></div>
+    <p class="lead rv" style="--d:2.7s">¡Estás cordialmente invitado!</p>
+    <a class="btn rv" style="--d:3.1s" href="#s2">Acompáñanos</a>
+    <div class="scroll" aria-hidden="true"></div>
+  </section>
+
+  <section id="s2" class="sec2" data-burst="40">
+    <div class="orn rv"><i></i></div>
+    <p class="msg wr shimmer" data-words>Con mucha alegría queremos invitarte a festejar nuestros cumpleaños.</p>
+    <div class="orn rv" style="--d:1.4s;width:min(120px,40%)"><i></i></div>
+    <p class="msg2 wr" data-words data-delay="13">Nos encantará contar con tu presencia para celebrar esta ocasión tan especial.</p>
+  </section>
+
+  <section id="s3" data-burst="50">
+    <p class="eyebrow rv">Los detalles</p>
+    <div class="row rv" style="--d:.2s">
+      <svg viewBox="0 0 32 32"><rect x="4" y="7" width="24" height="21" rx="2"/><path d="M4 13h24M10 4v6M22 4v6"/></svg>
+      <p class="big" data-fecha></p>
+    </div>
+    <div class="row rv" style="--d:.5s">
+      <svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="12"/><path d="M16 9v7l5 3"/></svg>
+      <p class="big" data-hora></p>
+    </div>
+    <div class="orn rv" style="--d:.8s"><i></i></div>
+    <p class="lead rv" style="--d:.9s">Una celebración para compartir, disfrutar y crear nuevos recuerdos.</p>
+    <div class="row rv" style="--d:1.2s;margin-top:26px">
+      <svg viewBox="0 0 32 32"><path d="M16 29s9-8.5 9-15a9 9 0 0 0-18 0c0 6.5 9 15 9 15z"/><circle cx="16" cy="14" r="3.2"/></svg>
+      <p class="lugar" data-lugar></p>
+      <p class="addr" data-dir></p>
+    </div>
+    <a class="btn rv" style="--d:1.4s;margin-top:10px" id="bMapa" href="#">Ver ubicación</a>
+    <p class="hint" id="hMapa"></p>
+  </section>
+
+  <section id="s5" data-final>
+    <p class="lead rv">Las mejores celebraciones se viven en compañía de personas especiales.</p>
+    <div class="orn rv" style="--d:.4s"><i></i></div>
+    <figure class="frame">
+      <div class="arch rv" style="--d:.7s"><img src="assets/foto.jpg" alt="Edith y Armando" decoding="async"></div>
+      <figcaption class="cap rv" style="--d:1.3s">Edith <span class="amp">&amp;</span> Armando</figcaption>
+    </figure>
+    <p class="lead fin rv" style="--d:1.8s">¡Te esperamos para compartir este momento importante para nosotros!</p>
+  </section>
+</main>
+
+<script src="js/config.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
