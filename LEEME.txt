@@ -1,0 +1,24 @@
+Proyecto 1 · Invitación digital Edith & Armando (Negro y dorado)
+
+ESTRUCTURA
+  index.html        Contenido de la invitación
+  css/style.css     Estilos y animaciones
+  js/config.js      DATOS EDITABLES (nombres, fecha, hora, lugar, dirección, Maps)
+  js/script.js      Globos, confeti, destellos y animaciones al hacer scroll
+  assets/foto.jpg   Foto de los festejados (puedes reemplazarla conservando el nombre)
+
+AGREGAR UBICACIÓN
+  Abre js/config.js y llena mapsUrl con el enlace de Google Maps
+  (Compartir > Copiar enlace). Opcionalmente llena direccion.
+  El botón "Ver ubicación" se activa solo.
+
+PUBLICAR GRATIS
+  Sube TODA la carpeta a GitHub Pages, Netlify o Cloudflare Pages.
+  Con la URL pública, genera el QR y guárdalo en assets/.
+
+MÚSICA
+  1) Guarda la canción en assets/ (por ejemplo assets/musica.mp3; ideal que pese menos de 4 MB).
+  2) En js/config.js escribe: musica: "assets/musica.mp3"
+  Los navegadores no permiten sonido sin que la persona toque la pantalla, así que
+  la música empieza con el primer toque (por ejemplo, en el botón "Acompáñanos").
+  Hay un botón arriba a la derecha para pausar o reanudar.
