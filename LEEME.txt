@@ -1,0 +1,29 @@
+Proyecto 1 · Invitación digital Edith & Armando (Negro y dorado)
+
+ESTRUCTURA
+  index.html        Contenido de la invitación
+  css/style.css     Estilos y animaciones
+  js/config.js      DATOS EDITABLES (nombres, fecha, hora, lugar, dirección, Maps)
+  js/script.js      Globos, confeti, destellos y animaciones al hacer scroll
+  assets/foto.jpg   Foto de los festejados (puedes reemplazarla conservando el nombre)
+  assets/Conga.mp3  Canción de fondo
+  assets/preview.jpg  Imagen que aparece al compartir el enlace por WhatsApp
+
+AGREGAR UBICACIÓN
+  Abre js/config.js y llena mapsUrl con el enlace de Google Maps
+  (Compartir > Copiar enlace). Opcionalmente llena direccion.
+  El botón "Ver ubicación" se activa solo.
+
+PUBLICAR GRATIS
+  Sube TODA la carpeta a GitHub Pages, Netlify o Cloudflare Pages.
+  Comparte el enlace público de tu página (por ejemplo, por WhatsApp).
+
+MÚSICA
+  La canción es assets/Conga.mp3 y ya está configurada en js/config.js.
+  La página intenta reproducirla al abrirse. Algunos navegadores (sobre todo Safari en iPhone)
+  la bloquean hasta que la persona toca la pantalla; en ese caso suena con el primer toque.
+  Arriba a la derecha hay un botón para pausar o reanudar.
+
+VISTA PREVIA EN WHATSAPP
+  Al enviar el enlace, WhatsApp muestra la foto (assets/preview.jpg), el título y la fecha.
+  Está configurada para: https://jalpilla-andres.github.io/invitacion-edith-armando/
